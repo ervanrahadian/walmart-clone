@@ -1,0 +1,26 @@
+.menubar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 42px;
+  background-color: #041e42;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.menubar2_logo {
+  object-fit: contain;
+  width: 55px;
+}
+
+.menubar2_text {
+  font-weight: 600;
+}
+
+.menubar2_icon {
+  color: white;
+}

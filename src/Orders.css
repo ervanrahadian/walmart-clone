@@ -1,0 +1,26 @@
+.orders {
+  padding: 20px 80px;
+}
+
+.orders > h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.orders > h3 {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.orders > small {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15px;
+}

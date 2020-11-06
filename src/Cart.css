@@ -1,0 +1,66 @@
+.cart {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cart_left {
+  width: 100%;
+  height: max-content;
+  border-right: 1px solid lightgray;
+}
+
+.cart_ad {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  height: 73px;
+}
+
+.cart_ad > img {
+  width: 65px;
+  object-fit: contain;
+  margin-left: 50px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cart_ad > p {
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.cart_ad > button {
+  margin-top: 20px;
+  margin-left: 140px;
+  background-color: white;
+  height: 32px;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 100px;
+  font-weight: bold;
+}
+
+.cart_desc {
+  margin-top: 30px;
+}
+
+.cart_title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.cart_gift {
+  font-size: 14px;
+}
+
+.cart_gift > input {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.cart_gift > input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-top: 10px;
+  margin-left: 5px;
+}
